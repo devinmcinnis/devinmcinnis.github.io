@@ -1,3 +1,2 @@
-all: 
-	jekyll serve --watch&
-	open http://localhost:4000
+server:
+	python -m SimpleHTTPServer 8080
